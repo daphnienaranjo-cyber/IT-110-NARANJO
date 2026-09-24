@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Activity 2</title>
+    </head>
+
+    <body>
+        <h1 id="images">IMAGES</h1>
+        <figure>
+            <img src="images/meta.jpg"
+                alt="Photo of a dog."
+                width="250">
+            <figcaption>
+                Image number 1
+            </figcaption>
+        </figure>
+
+        <figure>
+            <img src="images/cat.jpg"
+                alt="Photo of a cat."
+                width="250">
+            <figcaption>
+                Image number 2
+            </figcaption>
+        </figure>
+
+        <figure>
+            <img src="images/rabbit.jpg"
+                alt="Photo of a rabbit."
+                width="250">
+            <figcaption>
+                Image number 3
+            </figcaption>
+        </figure>
+
+        <h2 id="links">HYPERLINK</h2>
+
+        <p>
+            Go to <a href="#images"> <b>IMAGES</b></a>.
+        </p>
+
+        <p>
+            Link to an audio file titled <a href="media/Ben&Ben - Lifetime (Reimagined).mp3"><b>LIFETIME(Reimagined)</b></a>.
+        </p>
+
+        <p>
+            Send an <a href="mailto:daphniethalianaranjo388@gmail.com"><b>EMAIL</b></a>.
+        </p>
+
+        <p>
+            Link to my <a href="https://www.facebook.com/daphniethalia.naranjo.5" target="_blank"><b>FACEBOOK</b></a> profile.
+        </p>
+
+        <h2 id="multimedia">MULTIMEDIA</h2>
+
+        <p>
+            <b>Ben&Ben - Lifetime (Reimagined)</b>
+        </p>
+
+        <audio controls> 
+            <source src="media/Ben&Ben - Lifetime (Reimagined).mp3" type="audio/mpeg"> 
+            Browser does not support the audio. 
+        </audio> 
+
+        <br> 
+        <br>
+        
+        <p>
+            <b>Lyca Gairanod - Puede Nang Mangarap</b>
+        </p>
+
+        <video controls width="300" height="250"> 
+            <source src="media/Lyca Gairanod - Puede Nang Mangarap.mp4" type="video/mp4"> 
+            Browser does not support the video.
+        </video>
+
+        <h2 id="usefulTags">USEFUL TAGS</h2>
+
+        <!--Isolate the quoted text by rendering it with a slight indentation on both sides.-->
+        <!-- Mark is used to highlight a phrase or text. -->
+        <blockquote> “In three words I can sum up everything I've learned about life: 
+            <br> <mark>it goes on.</mark>” 
+
+            <p>― Robert Frost</p>
+        </blockquote> 
+        
+        <!-- Abbr is used to show the meaning of an abbreviation. --> 
+        <p> <abbr title="Personal Identification Number">PIN</abbr> 
+            is used to verify a user's identity and grant <br> access to a system, device, or financial account. 
+        </p>
+
+        <h2 id="htmlDOM">HTML DOM</h2> 
+
+        <div id="dom-heading"> 
+
+            <p id="dom-paragraph"> 
+                Child of div with an id of dom-heading.
+            </p> 
+
+            <figure id="dom-figure"> 
+                <img src="images/meta.jpg" alt="Dog" width="250"> 
+                <figcaption> 
+                    Image inside the figure element that is child of div.
+                </figcaption> 
+            </figure> 
+
+        </div>
+
+    </body>
+</html>
+
+<!-- The <div id="dom-heading"> element is the parent of the <p> and <figure> elements. The <figure> element is the parent of the image and its <figcaption>. 
+     The <img> and <figcaption> elements are the child elements of the <figure> element. -->
